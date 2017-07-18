@@ -1,0 +1,30 @@
+.nav-menu {
+  display: inline-block;
+  padding: 10px;
+  margin: 0px 20px 0px 0px;  
+}
+
+a {
+  color: grey;
+  font-family: Spectral;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: Playfair Display; 
+}
+
+.content{
+  width: 960px;
+  margin: 0px 0px 0px 70px;
+}
+
+.review {
+  font-family: Spectral;
+  font-size: 18px;
+}
+
+.review-photo {
+  width: 300px;
+}
