@@ -1,7 +1,13 @@
 .nav-menu {
   display: inline-block;
   padding: 10px;
-  margin: 0px 20px 0px 0px;  
+  margin: 0px 20px 0px 0px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 a {
@@ -12,7 +18,7 @@ a {
 }
 
 h1 {
-  font-family: Playfair Display; 
+  font-family: Playfair Display;
 }
 
 .content{
@@ -26,5 +32,7 @@ h1 {
 }
 
 .review-photo {
+  float: left;
   width: 300px;
+  margin: 10px;
 }
